@@ -1,0 +1,150 @@
+.nav{
+  display: flex;
+  padding: 15px 25px;
+  background: linear-gradient(45deg, #2d353b, #0f171f);
+  height: 130px;
+  justify-content: space-around;
+}
+
+.navtext{
+  color: white;
+  font-size: 20px;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
+  background-image: url(./img/poseidon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo2{
+  height: 80px;
+  width: 80px;
+  background-image: url(./img/programmer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.form{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.dadosreservas{
+  width: 255px;
+  height: 100%;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 3px;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.entrada{
+  color: rgb(102, 102, 102);
+  font-weight: bold;
+}
+
+.entradahora{
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
+
+.saida{
+  color: rgb(102, 102, 102);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.saidahora{
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
+
+.diaria{
+  color: rgb(102, 102, 102);
+  font-weight: bold;
+}
+
+.suite{
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
+
+.insiradados{
+  margin-bottom: 30px;
+}
+
+.emailconfirm{
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
+
+#submitdados{
+  float: right;
+}
+
+.forminfs{
+  background-color: rgb(233, 238, 255);
+  padding: 15px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 3px;
+}
+
+.footer{
+  background: linear-gradient(45deg, #2d353b, #0f171f);
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.downfooter{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  height: 350px;
+}
+
+.localizacaoapi{
+  width: 200px;
+  height: 150px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 534px){
+  
+  .nav{
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 1693px){
+
+  .footer{
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .contato, .localizacao{
+    float: none;
+  }
+
+  .localizacaoapi{
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,330 @@
+.nav{
+  display: flex;
+  padding: 15px 25px;
+  background: linear-gradient(45deg, #2d353b, #0f171f);
+  height: 130px;
+  justify-content: space-around;
+}
+
+.navp{
+  margin-top: 27px;
+}
+
+.navtext{
+  color: white;
+  font-size: 20px;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
+  background-image: url(./img/poseidon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo2{
+  height: 80px;
+  width: 80px;
+  background-image: url(./img/programmer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.consult{
+  width: 67%;
+  height: 170px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 0 auto;
+  border-radius: 0 0 30px 30px;
+  padding: 50px;
+  display: flex;
+}
+
+.consult Input{
+  width: 170px;
+  height: 60px;
+  margin-right: 35px;
+}
+
+.consult Button{
+  height: 60px;
+  color: white;
+  font-weight: 10px;
+}
+
+.modal-login{
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.loginbox{
+  margin-bottom: 10px;
+}
+
+.modal-login Input{
+  width: 200px;
+}
+
+.bg{
+	position: relative;
+	height: 560px;
+  width: 80%;
+  margin: 0 auto;
+	background-position: center;
+	background-size: cover;
+	background-image: url(./img/bg-form.jpg);
+  border-bottom: 1px solid white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.chamada{
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	border-top: 1px solid;
+	border-color: white;
+}
+
+.bar{
+  background: linear-gradient(45deg, #2d353b, #0f171f);
+  width: 70%;
+  height: 170px;
+  margin: 0 auto;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.seta{
+	position: absolute;
+	left: 50%;
+	top: -32px;
+	transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	width: 64px;
+	height: 64px;
+	background-size: 100% 100%;
+	background-image: url(./img/arrow.png);
+}
+
+.bar h2{
+  color: white;
+  position: relative;
+  top: 30px;
+}
+
+.bar h1{
+  color: rgb(255, 221, 67);
+  position: relative;
+  top: 25px;
+}
+
+.bar .underline{
+  color: rgb(255, 221, 67);
+  position: relative;
+  top: -12px;
+}
+
+.mosaico1, .mosaico2, .mosaico3, .mosaico4{
+  display: flex;
+  margin: 0 15%;
+}
+
+.img1{
+  background-image: url(./img/mosaico1.jpg);
+  background-position: center;
+	background-size: cover;
+  height: 350px;
+  width: 60%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.mosaicobox{
+  background: linear-gradient(45deg, #2d353b, #0f171f);
+  height: 350px;
+  width: 40%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  padding: 50px;
+}
+
+.mosaicobox p{
+  color: white;
+  font-size: 20px;
+}
+
+.img2{
+  background-image: url(./img/mosaico2.jpg);
+  background-position: center;
+	background-size: cover;
+  height: 350px;
+  width: 60%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  order: 2;
+}
+
+.img3{
+  background-image: url(./img/mosaico3.jpg);
+  background-position: center;
+	background-size: cover;
+  height: 350px;
+  width: 60%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.img4{
+  background-image: url(./img/mosaico4.jpg);
+  background-position: center;
+	background-size: cover;
+  height: 350px;
+  width: 60%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  order: 2;
+}
+
+.footer{
+  background: linear-gradient(45deg, #2d353b, #0f171f);
+  width: 100%;
+  height: 230px;
+  justify-content: center;
+  border-top: 1px solid white;
+  padding: 20px 550px 20px 550px;
+  display: flex;
+}
+
+.contato{
+  margin-right: 50px;
+}
+
+.contato h5, span{
+  color: white;
+}
+
+.contato h5{
+  margin-top: 10px;
+}
+
+.contato ul{
+  margin-top: 10px;
+}
+
+.contato li{
+  margin-top: 10px;
+}
+
+.localizacao h5{
+  color: white;
+  text-align: center;
+}
+
+.localizacaoapi{
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 850px){
+
+  .logo, .navp5, .navp6{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1810px){
+
+  .consult{
+    height: 550px;
+    float: right;
+    width: 300px;
+    display: block;
+    position: relative;
+    left: -50px;
+    background-color: rgba(189, 189, 189, 0.7);
+    justify-content: center;
+  }
+
+  .consult Input{
+    margin-bottom: 30px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 534px){
+  
+  .nav{
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 1040px){
+
+  .mosaico1, .mosaico2, .mosaico3, .mosaico4{
+    display: block;
+  }
+
+  .img1, .img2, .img3, .img4, .mosaicobox{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1693px){
+
+  .footer{
+    display: block;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .contato, .localizacao{
+    float: none;
+  }
+
+  .localizacaoapi{
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 520px){
+
+  .consult{
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 1199px){
+
+  .img1{
+    width: 100%;
+  }
+
+  .inf1{
+    width: 50%;
+  }
+
+  .check1{
+    float: right;
+  }
+}
+
+@media screen and (max-width: 991px){
+
+
+  .check1{
+    display: none;
+  }
+}
